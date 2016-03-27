@@ -19,9 +19,11 @@ namespace HelloMvc
             
             app.UseDeveloperExceptionPage();
 
+            app.UseStaticFiles();
+
             app.UseMvcWithDefaultRoute();
 
-            app.UseStaticFiles();
+            
             //app.UseWelcomePage();
         }
     }

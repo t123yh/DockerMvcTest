@@ -21,7 +21,8 @@ namespace HelloMvc
 
             app.UseMvcWithDefaultRoute();
 
-            app.UseWelcomePage();
+            app.UseStaticFiles();
+            //app.UseWelcomePage();
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "dockermvctest",
+  "version": "1.0.0",
+  "description": "",
+  "author": "t123yh",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "bower": "1.7.7"
+  }
+}
